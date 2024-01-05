@@ -1,0 +1,32 @@
+body 
+{
+
+
+  /*color de letra para el cuerpo*/  
+color: rgb(220, 223, 41);
+/*color de fondo para el cuerpo*/
+background: rgb(229, 61, 193);
+}
+
+.titulo
+{
+    width: 80%;
+    font-size: 22px;
+}
+.nombre_de_objetos
+{
+    /*color de la letra */
+    color: rgb(45, 25, 227);
+}
+
+#camara, #resultado
+{
+    /*Esto agregará un borde discontinuo negro grueso de 2px al div*/
+    border: 2px dashed black;
+    width: 350px;
+    height: 300px;
+}
+#resultado_nombre_objeto, #resultado_precision_objeto
+{
+    color: blueviolet;
+}
